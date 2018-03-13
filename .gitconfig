@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+  name = Ben Davis
+  email = bdavis@oncourselearning.com
+#[color "branch"]
+  #current = yellow reverse
+  #local   = yellow
+  #remote  = green
+[alias]
+  s  = status -s -b
+  bl = branch --list -a
+  bd = branch -d
+  l  = log --pretty='format:%C(yellow)%h %C(blue)%ad %C(reset)%s%C(red)%d %C(green)%an%C(reset), %C(cyan)%ar' --date=short --max-count=20
+  la = log --pretty='format:%C(yellow)%h %C(blue)%ad %C(reset)%s%C(red)%d %C(green)%an%C(reset), %C(cyan)%ar' --date=short
+  co = checkout
+  ca = commit -a
+  f  = fetch -p
+  undo = checkout --
+#[credential "https://git.proshipservices.com"]
+#  username = bdavis
+#[credential]
+#  helper = manager
