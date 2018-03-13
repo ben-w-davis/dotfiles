@@ -1,0 +1,29 @@
+
+Sql Server 2017 Developer -- install this before VS 2017
+	- install with Full Text Search
+  - is dependent on VC++ 2015 redistributable
+Visual Studio 2017 Professional
+Node js
+Git for windows
+
+firaCode
+Slack
+
+Confluence Setup
+Jira Setup
+Bitbucket Setup
+
+
+///~~~~~///
+
+choco install vcredist2015 -fy
+choco install sql-server-management-studio -fy
+choco install visualstudio2017professional -fy
+
+choco install firefox -fy
+choco install greenshot -fy
+choco install slack -fy
+choco install firacode -fy
+choco install vim -fy
+choco install git -fy
+
