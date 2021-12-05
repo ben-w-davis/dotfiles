@@ -1,11 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
   name = Ben Davis
-  email = bdavis@oncourselearning.com
-#[color "branch"]
-  #current = yellow reverse
-  #local   = yellow
-  #remote  = green
+  email = benjamin.w.davis@gmail.com
+
 [alias]
   s  = status -s -b
   bl = branch --list -a
@@ -16,7 +13,8 @@
   ca = commit -a
   f  = fetch -p
   undo = checkout --
-#[credential "https://git.proshipservices.com"]
-#  username = bdavis
-#[credential]
-#  helper = manager
+
+[fetch]
+	prune = true
+[pull]
+	rebase = false
